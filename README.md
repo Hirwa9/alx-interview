@@ -1,1 +1,1 @@
-#Pascal's triangle repo
+# Pascal's triangle repo
