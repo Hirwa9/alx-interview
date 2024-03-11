@@ -1,11 +1,22 @@
 #!/usr/bin/python3
+"""
+Script to generate and print Pascal's Triangle
+"""
 
 
 # Defining the function
 def pascal_triangle(n):
-    # Return / exit function if number given is less than 1
+    """
+    Generates Pascal's Triangle with n rows
+
+    Args:
+        n (int): Number of rows in the triangle
+
+    Returns:
+        List[List[int]]: Pascal's Triangle represented as a 2D list
+    """
     if n <= 0:
-        return []
+        return []  # Return if number given is less than 1
     triangle = [[1]]
     # Set a range of rows equal to n
     for i in range(1, n):
